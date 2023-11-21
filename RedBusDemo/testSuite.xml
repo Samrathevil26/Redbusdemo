@@ -1,0 +1,10 @@
+
+<suite name="RedbusTestSuite">
+    <parameter name="environment" value="qa" />
+    <test name="RegressionTest">
+        <classes>
+            <class name="com.RedBuss.test.tests.LoginTest" />
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+</suite>
